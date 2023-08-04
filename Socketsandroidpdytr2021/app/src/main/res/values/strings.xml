@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sockets nativos</string>
+    <string name="button_server">Iniciar servidor</string>
+    <string name="button_client">Iniciar cliente</string>
+</resources>
