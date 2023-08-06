@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sockets nativos</string>
+    <string name="button_server">Iniciar servidor</string>
+    <string name="button_client">Iniciar cliente</string>
+    <string name="client_enter_msg_text_view">Ingrese un mensaje:</string>
+    <string name="client_send_msg_button">Enviar mensaje</string>
+    <string name="client_port_text_view">Puerto destino:</string>
+    <string name="client_info_status_text_view">Esperando respuesta del servidor...</string>
+    <string name="info_card_view_close_button">Cerrar</string>
+    <string name="server_port_text_view">Puerto servidor:</string>
+    <string name="server_listening_status_msg">Servidor escuchando...</string>
+    <string name="response_status_string_text_view">Codigo de estado:</string>
+    <string name="response_msg_string_text_view">Mensaje:</string>
+    <string name="port_input_hint"> Ej: 3000</string>
+</resources>
