@@ -2,6 +2,10 @@
 
 Trabajo final para la materia Programación distribuida y tiempo real.
 
+* **Cómo ver el código si no tengo instalado Android Studio?**
+* **Cómo importar código en Android Studio?**
+* **Compilar código C**
+
 
 ### Cómo ver el código si no tengo instalado Android Studio?
 
@@ -24,3 +28,18 @@ Presionamos "Open".
 Presionamos “OK”.
 
 A continuación, Gradle configurará nuestro proyecto automáticamente. Luego, podremos ejecutar la aplicación.
+
+### Compilar código C
+
+En **CodigoBaseSocketsC** podemos encontrar, tanto el cliente como el servidor que se tomaron como base.
+Para compilar estos archivos fuente en **GNU/Linux**:
+> $ gcc -o servidor server.c
+
+> $ gcc -o cliente client.c
+
+#### Ejecución
+Servidor  
+> $ ./servidor num_puerto
+
+Cliente
+> $ ./cliente dir_ip num_puerto
